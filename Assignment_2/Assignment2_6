@@ -1,0 +1,12 @@
+def Display(no):
+    if(no <= 0):
+        print("Invalid input")
+        return
+    for i in range(no):
+        print("*\t")
+
+def main():
+    value = int(input("Enter the number :"))
+
+if __name__ == "__main__":
+    main()
